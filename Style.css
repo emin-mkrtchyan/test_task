@@ -1,0 +1,1306 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+body{
+    background: #1E1E1E;;
+}
+
+i{
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: #004DC1;
+}
+
+
+svg{
+    cursor: pointer     ;
+}
+
+button{
+    width: 143px;
+    height: 47px;
+    left: 475px;
+    top: 19px;
+    background: linear-gradient(180deg, #A37DF9 0%, #7B5AC5 100%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header{
+    position: absolute;
+    top: 0;left: 0;right: 0px;
+    background:#212834;
+    padding: 1rem;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header span{
+    color: #C64DFF;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;    
+    text-transform: lowercase;
+}
+
+.header .logo{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: left;
+    color:#5082FC ;
+}
+
+button a{
+    color: #ffff;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+
+.header .navbar a{
+    padding: 1rem;
+    color: #ffff;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+
+.navbar a i{
+    padding: .5rem;
+    color:#805AD5;  
+    font-size: 1.5rem;
+}
+
+
+.header .icons i{
+    color:#805AD5;
+    cursor: pointer;
+    font-size: .5rem;
+}
+
+.header .icons {
+    height: 40px;
+    width: 40px;
+    left: 1775px;
+    top: 20px;
+    background: #A588E7;
+    border-radius: 50%;
+
+}
+
+.header .icons p{
+    text-align: center;
+    padding: .7rem;
+    color: #ffff;
+}
+
+
+
+/* Container */
+
+
+.container{
+    position: absolute;
+    background: #212734;
+    height: 800px;
+    width: 408px;
+    left: 54px;
+    top: 99px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.container input::placeholder{
+    color: #fff;
+}
+
+.container form {
+    background: #2B3548;
+    box-shadow: 0px 2px 4px 0px #00000040;
+    padding: 1rem;
+}
+
+.container form  i{
+    color: #805AD5;
+    height: 13.123046875px;
+    width: 20.39453125px;
+    left: 0.8203125px;
+    top: 3.9375px;
+    font-size: 1rem;    
+}
+
+.container form input[type='text']{
+    font-family: "Axiforma";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.container input{
+    box-sizing: border-box;
+    left: 3.59%;
+    right: 86.2%;
+    top: 13.32%;
+    bottom: 82.56%;
+    background: #1A202C;
+    border: 1px solid #2B3548;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+
+.container  label input {
+    height: 50px;
+    width: 378px;
+    left: 447px;
+    top: 177px;
+    border-radius: 7px;
+    background-color: #1A202C;
+    color: #FFFFFF;
+    border: 1px solid #2B3548;
+    text-align: center;
+    box-shadow: 0px 2px 4px 0px #00000040;
+}
+
+.container label  i{
+    height: 19.037635803222656px;
+    width: 19.037635803222656px;
+    left: 10px;
+    top: 10px;
+    color: #805AD5;
+    font-size: 1.2rem;
+}
+
+
+/* metamask */
+
+.container .metamask {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container .metamask svg{
+    cursor: pointer;
+}
+
+
+.container .metamask i{
+    color: #F6851B;
+    font-size: 1rem;
+}
+
+.container .metamask h1{
+    font-family: "Axiforma";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+.container .metamask h2{
+    font-family: Axiforma;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color:  #FF0000;
+}
+
+.container .metamask .icons i{
+    color: #805AD5;
+}
+
+/* Biance */
+
+.biance{
+    height: 304px;
+    width: 405px;
+    left: 69px;
+    top: 307.1328125px;
+    border-radius: 7px;
+    background: #1A202C;
+}
+
+.biance .biance_logo{
+    display: flex; 
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+
+
+.biance .biance_logo i{
+    color: #F6851B;
+}
+
+.biance .biance_logo h1{
+    font-family: "Axiforma";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.biance .biance_logo h2{
+    border-radius: "nullpx";
+    font-family: "Axiforma";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #61E224;
+    padding-left:90px ;
+}
+
+.container .biance .price{
+    height: 33px;
+    width: 101px;
+    left: 82px;
+    top: 363.1328125px;
+    border-radius: 'nullpx';
+    font-family: 'Axiforma';
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    color: #FFFFFF;
+    border-bottom: 1px solid #686868;
+    padding-bottom: 25px; 
+    padding: 3rem;
+} 
+
+.container .biance .biance_savings{
+    width: 351px;
+    left: 85.5px;
+    top: 405px;
+}
+
+.container .biance  .biance_savings .content {
+    padding: 1rem; 
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.container .biance  .biance_savings .content i{
+    color:#F6851B;
+    font-size: 16px;
+    margin-left: 2rem;
+}
+
+.container .biance  .biance_savings .content p{
+    font-family: "Axiforma";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #fff;
+}
+
+.container .biance  .biance_savings button{
+    height: 55px;
+    width: 340px;
+    left: 91px;
+    top: 469.1328125px;    
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    background: #2B3548;
+    margin-left: 2rem;
+}
+
+.container .biance  .biance_savings button i{
+    font-size: 1rem;
+    color: #F6851B;
+    padding: 1rem;
+}
+
+.container .biance  .biance_savings button p{
+    color: #fff;
+    padding: 2rem;
+    font-family: Axiforma;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+/* Coinbase */
+
+.container .coinbase{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .coinbase i{
+    height: 21.854101268972173px;
+    width: 21.854101268972173px;
+    left: 93px;
+    top: 560.1328125px;
+    font-size: 1rem;
+    color:  #004DC1 ;
+}
+
+.container .coinbase h1{
+    font-family: 'Axiforma';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.container .coinbase p {
+    left: 13.59%;
+    right: 83.96%;
+    top: 57.95%;
+    bottom: 39.57%;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF0000;
+}
+
+.container .coinbase .fa-bitcoin{
+    font-size: 2rem;
+}
+
+/* Coinbase2 */
+
+.container .coinbase2{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.container .coinbase2 i{
+    height: 21.854101268972173px;
+    width: 21.854101268972173px;
+    left: 93px;
+    top: 560.1328125px;
+    font-size: 1rem;
+    color:  #004DC1 ;
+}
+
+.container .coinbase2 h1{
+    font-family: 'Axiforma';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.container .coinbase2 p {
+    left: 13.59%;
+    right: 83.96%;
+    top: 57.95%;
+    bottom: 39.57%;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF0000;
+}
+
+.container .coinbase2 .fa-bitcoin{
+    font-size: 2rem;
+}
+
+
+/* Coinbase3 */
+
+.container .coinbase3{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.container .coinbase3 i{
+    height: 21.854101268972173px;
+    width: 21.854101268972173px;
+    left: 93px;
+    top: 560.1328125px;
+    font-size: 1rem;
+    color:  #004DC1 ;
+}
+
+.container .coinbase3 h1{
+    font-family: 'Axiforma';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.container .coinbase3 p {
+    left: 13.59%;
+    right: 83.96%;
+    top: 57.95%;
+    bottom: 39.57%;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF0000;
+}
+
+.container .coinbase3 .fa-bitcoin{
+    font-size: 2rem;
+}
+
+/* Coinbase4 */
+
+.container .coinbase4{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+.container .coinbase4 i{
+    height: 21.854101268972173px;
+    width: 21.854101268972173px;
+    left: 93px;
+    top: 560.1328125px;
+    font-size: 1rem;
+    color:  #004DC1 ;
+}
+
+.container .coinbase4 h1{
+    font-family: 'Axiforma';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.container .coinbase4 p {
+    left: 13.59%;
+    right: 83.96%;
+    top: 57.95%;
+    bottom: 39.57%;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF0000;
+}
+
+.container .coinbase4 .fa-bitcoin{
+    font-size: 2rem;
+}
+
+/* Free_trial */
+
+.free_trial{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 408px;
+    height: 151.55px;
+    left: 54px;
+    top: 917.36px;
+    background: #212734;
+    box-shadow: inset 0px -0.2px 1px #805AD5;
+    border-radius: 10px;
+}
+
+.free_trial i{
+    position: absolute;
+    left: 92.24%;
+    top: 3%;
+    bottom: 15.96%;
+    color: #F2F2F2;
+}
+
+.free_trial h1{
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.0543px;
+    padding: 1rem;
+    font-size : 1.2rem;
+    line-height: 26px;
+    color: #fff;
+}
+
+.free_trial  p{
+    color: red;
+}
+
+.free_trial button {
+    Width: 338.71px; 
+    Height:40px;
+    left: 3.65%;
+    right: 78.71%;
+    top: 90.3%;
+    bottom: 5.58%;
+    border-radius: 10px;  
+    background: #A37DF9;
+    color: #ffff; 
+    margin-left: 2rem;
+}
+
+
+.free_trial .subscribe:hover{
+    background-color: #004DC1;
+}
+
+/* Total_container */
+
+.points_container{
+    position: absolute;
+    width: 697px;
+    height: 348px;
+    left: 34.74%;
+    right: 38.91%;
+    top: 20.21%;
+    bottom: 53.82%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.points_container label{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.points_container h1{
+    color: #fff;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+
+.points_container .icons {
+    padding-left: 35rem;
+    margin: 1rem;
+}
+
+.points_container .icons i {
+    height: 14px;
+    width: 14px;
+    left: 1px;
+    top: 1px;
+    color: #fff;
+}
+ 
+
+.points form select{
+    padding: .5rem;
+    left: 32.86%;
+    right: 61.01%;
+    top: 12.06%;
+    bottom: 84.81%;
+    background-color: #212834;
+    color:  #A3A0A0;
+    border-radius: 3.97656px;
+}
+
+.points_container a{
+    font-family: 'Axiforma';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    padding: .5rem;
+    color: #805AD5;
+}
+
+.points_container svg{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+.points_container svg path{
+    width: 177.65px;
+    height: 0px;
+    left: 570.62px;
+    top: 353.97px;
+    background: #686868;
+
+}
+
+.points_container svg path{
+    width: 54px;
+    height: 18px;
+    left: 503.83px;
+    top: 180.78px;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+/* Results */
+
+.results.container{
+    position: absolute;
+    height: 312px;
+    width: 430px;
+    left: 474px;
+    top: 490px;
+    border-radius: 12px;    
+    background: #212734;
+    border-radius: 12px;
+}
+
+.results.container .icons {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.2rem;
+}
+
+.results.container .icons i{
+    font-size: 1.2rem;
+    color: #805AD5;
+}
+
+
+.results.container .icons .fa-d{
+    Width: 77px;
+    height: 76px;
+    left: 25.81%;
+    right: 70.16%;
+    top: 49.61%;
+    bottom: 42.46%;
+    background-color:#805AD5;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    border-radius: 38px;
+}
+
+.results.container .icons i span{
+    padding: 13px;
+}
+
+.results.container .content{
+    left: 794px;
+    top: 535px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    padding-left: 8rem;
+}
+
+.results.container .content h1 {
+    font-weight: 400;
+    font-size: 19px;
+    color: #fff;
+}
+
+.results.container .time{
+    display: flex;
+    gap: 1rem;
+    padding-left: 5rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.results.container .time span{
+    width: 1.5rem;
+    height: 1.7rem;
+    font-size: 1.2rem;
+    background-color: #1E1E1E;
+    text-align: center;
+}
+
+/* Holdings */
+
+.holding_container{
+    position: absolute;
+    height: 303px;
+    width: 1190px;
+    left: 485px;
+    top: 815px;
+    border-radius: 7px;
+    background: #212834;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.holding_container .title{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.holding_container a{
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 16px;
+    color: #805AD5;
+}
+
+.holding_container .table table th{
+    background: #272E3C;
+    padding: 2rem;
+    color: #fff;
+}
+
+
+.holding_container .table table td{
+    height: 19px;
+    left: -390px;
+    top: 452.px;
+    padding-left: 2rem;
+    color: #fff;
+}
+
+
+.holding_container .table table td span{
+    color: #34D35C;
+}
+
+.holding_container .table table td .fa-caret-up{
+    font-size: .8rem;
+    align-items: center;
+}
+
+.holding_container svg{
+    cursor: pointer; 
+}
+
+/* Analytics */
+
+.analytics_container{
+    position: absolute;
+    height: 314px;
+    width: 461px;
+    left: 922px;
+    top: 489px;
+    border-radius: 5px;
+    background: #212834;
+    padding: .3rem;
+}
+
+.analytics_container .title{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.analytics_container  .total_trade button{
+    height: 47px;
+    width: 388px;
+    left: 958px;
+    top: 516px;
+    border-radius: 9px;
+    margin: .5rem;
+    background-color: #996FF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    border: 1px solid #805AD5;
+    border-radius: 9px;
+    box-shadow: 0px 2.7257540225982666px 2.7257540225982666px 0px #00000040;
+    color: #793EFF;
+}
+
+.analytics_container  .total_trade button i{
+    height: 16px;
+    width: 16px;
+    left: 1000px;
+    top: 538px;
+    border-radius: 10px;
+    text-align: center;
+    padding: .1rem;
+    background: #805AD5;
+    color: #fff;
+}
+
+.analytics_container .total_trade button span{
+    font-size: 13px;
+    color: #241646;
+}
+
+.analytics_container .total_trade button p{
+    font-size: 13px;
+    color: #fff;
+
+}
+
+.analytics_container .used_exchanges button{
+    height: 47px;
+    width: 388px;
+    left: 958px;
+    top: 516px;
+    border-radius: 9px;
+    margin: .5rem;
+    background-color: #996FF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    border: 1px solid #805AD5;
+    border-radius: 9px;
+    box-shadow: 0px 2.7257540225982666px 2.7257540225982666px 0px #00000040;
+    color: #793EFF;
+}
+
+.analytics_container .used_exchanges button i{
+    height: 16px;
+    width: 16px;
+    left: 1000px;
+    top: 538px;
+    border-radius: 10px;
+    text-align: center;
+    padding: .1rem;
+    background: #805AD5;
+}
+
+.analytics_container .used_exchanges button span{
+    font-size: 13px;
+    color: #241646;
+}
+
+.analytics_container .used_exchanges button p{
+    font-size: 13px;
+    color: #fff;
+
+}
+
+
+.analytics_container .total_withdraw button{
+    height: 47px;
+    width: 388px;
+    left: 958px;
+    top: 516px;
+    border-radius: 9px;
+    margin: .5rem;
+    background-color: #996FF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    border: 1px solid #805AD5;
+    border-radius: 9px;
+    box-shadow: 0px 2.7257540225982666px 2.7257540225982666px 0px #00000040;
+    color: #793EFF;
+}
+
+.analytics_container .total_withdraw button i{
+    height: 16px;
+    width: 16px;
+    left: 1000px;
+    top: 538px;
+    padding: .1rem;
+    text-align: center;
+    display: flex;
+    transform: translate(-1px, -5px);
+    background: #805AD5;
+    color: #fff;
+}
+
+.analytics_container .total_withdraw button span{
+    font-size: 13px;
+    color: #241646;
+}
+
+.analytics_container .total_withdraw button p{
+    font-size: 13px;
+    color: #fff;
+
+}
+
+
+.analytics_container .fee_paid button{
+    height: 47px;
+    width: 388px;
+    left: 958px;
+    top: 516px;
+    border-radius: 9px;
+    margin: .5rem;
+    background-color: #996FF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    border: 1px solid #805AD5;
+    border-radius: 9px;
+    box-shadow: 0px 2.7257540225982666px 2.7257540225982666px 0px #00000040;
+    color: #793EFF;
+}
+
+.analytics_container .fee_paid button i{
+    height: 16px;
+    width: 16px;
+    left: 1000px;
+    top: 538px;
+    border-radius: 10px;
+    text-align: center;
+    padding: .1rem;
+    color:  #5c1ae9;
+}
+
+.analytics_container .fee_paid button span{
+    font-size: 13px;
+    color: #241646;
+}
+
+.analytics_container .fee_paid button p{
+    font-size: 13px;
+    color: #fff;
+
+}
+
+
+.analytics_container .total_withdraw button{
+    height: 47px;
+    width: 388px;
+    left: 958px;
+    top: 516px;
+    border-radius: 9px;
+    margin: .5rem;
+    background-color: #996FF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem;
+    color: #793EFF;
+}
+
+.analytics_container .total_withdraw button i{
+    height: 16px;
+    width: 16px;
+    left: 1000px;
+    top: 538px;
+    padding: .1rem;
+    text-align: center;
+    display: flex;
+    transform: translate(-1px, -5px);
+    background: #805AD5;
+    color: #fff;
+}
+
+.analytics_container .total_withdraw button span{
+    font-size: 13px;
+    color: #241646;
+}
+
+.analytics_container .total_withdraw button p{
+    font-size: 13px;
+    color: #fff;
+
+}
+
+/* Exchanges */
+
+.exchanges_container{
+    position: absolute;
+    height: 348px;
+    width: 405px;
+    left: 1182px;
+    top: 99px;
+    border-radius: 7px;
+    background: #212834;
+}
+
+.exchanges_container .title{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 20px;
+    color: #fff;
+}
+
+.exchanges_container .title a{
+    font-size: 14px;
+    color: #805AD5;
+}
+
+.exchanges_container .concentric{
+    padding-left: 3rem;
+}
+
+.exchanges_container .concentric svg{
+    cursor: pointer;
+}
+
+
+/* Futures */ 
+
+.futures_container{
+    position: absolute;
+    height: 313px;
+    width: 464px;
+    left: 1401px;
+    top: 490px;
+    border-radius: 4px; 
+    background: #242A39;
+}
+
+.futures_container .title{
+    display: flex;
+    justify-content: space-between;
+    color: #ffff;
+    font-size: 16px;
+    padding: 1rem;
+}
+
+.futures_container .title  a{
+    color:  #805AD5;
+    font-size: 14px;
+}
+
+.futures_container .box{
+    height: 79px;
+    width: 412px;
+    left: 1427px;
+    top: 498px;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.24px solid #686868;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #2B3341 0%, rgba(61, 73, 95, 0.00693628) 99.99%, rgba(33, 39, 51, 0) 100%);
+}
+
+.futures_container .box span{
+    font-size: 12px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    padding: .3rem;
+}
+
+.futures_container .box p{
+    height: 49px;
+    width: 160px;
+    left: 1646px;
+    top: 513px;
+    font-size: 24px;
+    padding: .5rem;
+    border-radius: 2px;
+    border: 0.24px solid #686868;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: #fff;
+    background: linear-gradient(180deg, #2B3341 0%, rgba(61, 73, 95, 0.00693628) 99.99%, rgba(33, 39, 51, 0) 100%);
+    text-align: center;
+}
+
+.futures_container .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.futures_container .content .asset{
+    margin: .5rem;
+}
+
+.futures_container .content .asset  p  {
+    border-bottom: .5px solid #686868;
+    padding-bottom: .5px; 
+    color: #ffff;
+}
+
+.futures_container .content .asset span{
+    color: #fff;
+}
+
+
+
+.futures_container .content .balance  p  {
+    border-bottom: .5px solid #686868;
+    padding-bottom: .5px; 
+    padding: .2rem;
+    color: #ffff;
+}
+
+.futures_container .content .balance span{
+    padding: .5rem;
+    color: #805AD5;
+}
+
+.futures_container .content .wallet_balance  p  {
+    border-bottom: .5px solid #686868;
+    padding-bottom: .5px; 
+    padding: .2rem;
+    color: #ffff;
+}
+
+.futures_container .content .wallet_balance span{
+    padding: .5rem;
+    color: #805AD5;
+
+}
+
+.coins_container{
+    position: absolute;
+    height: 378px;
+    width: 327px;
+    left: 1598px;
+    top: 97px;
+    border-radius: 6px;
+    background: #212834;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.coins_container .title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: .5rem;
+    color: #fff;
+}
+
+.coins_container .title a{
+    font-size: 14px;
+    color: #805AD5;
+}
+
+.coins_container .gainer_box{
+    height: 242px;
+    width: 222px;
+    left: 86.69%;
+    right: 4.25%;
+    top: 18.21%;
+    bottom: 61.9%;
+    margin: 2rem;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #8177E5 0%, rgba(129, 119, 229, 0) 100%);
+    border: 2.52786px solid #805AD5;
+}
+
+.coins_container .gainer_box h1{
+    display: flex;
+    text-align: center;
+    gap: .5rem;
+    font-size: 13px;
+    margin-left: 2rem;
+    padding: 2rem;
+    color:#fff ;
+}
+
+.coins_container .gainer_box h1 p{
+    color: #61E224;
+}
+
+.coins_container .gainer_box h2{
+    margin-left: 5rem;
+    padding: .5rem;
+    font-size: 13px;
+    color: #fff;
+}
+
+.coins_container .gainer_box span {
+    padding: 2rem;
+    color: #97C876;
+}
+
+.coins_container .gainer_box span i{
+    color: #34D35C;
+    margin-left: 3rem;
+}
+
+.coins_container .losser_box {
+    height: 132px;
+    width: 242px;
+    left: 86%;
+    right: 4%;
+    top: 18%;
+    bottom: 61%;
+    margin: 2rem;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #8177E5 0%, rgba(129, 119, 229, 0) 100%);
+    border: 2.52786px solid #805AD5;
+  
+}
+
+.coins_container .losser_box h1{
+    display: flex;
+    text-align: center;
+    gap: .5rem;
+    font-size: 13px;
+    margin-left: 2rem;
+    padding: 2rem;
+    color:#fff ;
+}
+
+.coins_container .losser_box h1 p{
+    color: #61E224;
+}
+
+.coins_container .losser_box h2{
+    margin-left: 5rem;
+    padding: .5rem;
+    font-size: 13px;
+    color: #fff;
+}
+
+.coins_container .losser_box span {
+    color: #97C876;
+}
+
+.coins_container .losser_box  i{
+    padding-left: 5rem;
+    align-items: center;
+    color: #34D35C;
+}
